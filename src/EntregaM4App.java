@@ -60,27 +60,6 @@ public class EntregaM4App {
 	}
 	
 	static public void agafarComanda(ArrayList<String> comanda) {
-		/*
-		 * Mètode que agafa la comanda de tots els plats
-		 * 
-		 */
-
-		/*
-		 * Replace " "->""
-		 * 
-		 * public static String removeSpace(String s) { String withoutspaces = ""; for
-		 * (int i = 0; i < s.length(); i++) { if (s.charAt(i) != ' ') withoutspaces +=
-		 * s.charAt(i);
-		 * 
-		 * } return withoutspaces;
-		 * 
-		 * }
-		 * 
-		 * boolean flag = true; while(flag) { s = s.replaceAll(" ", ""); if
-		 * (!s.contains(" ")) flag = false; } return s;
-		 * 
-		 */
-
 		int flag = 1;
 		String input;
 		Scanner myObj = new Scanner(System.in);
@@ -127,16 +106,7 @@ public class EntregaM4App {
 
 			}
 		}
-
-		/*
-		 * Aquesta seria la manera correcta de solucionar una excepcio de tipus NullPointerException:
-		 * for (String plat:comanda) {
-		 * 
-		 * if (carta.get(plat)==null) {
-		 * System.out.println("El plat ordenat no està a la carta"); //Fi de programa }
-		 * 
-		 * else { preu += carta.get(plat); } }
-		 */
+	
 		return preu;
 	}
 
