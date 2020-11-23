@@ -28,7 +28,6 @@ public class EntregaM4App {
 	    llistaTipusBitllets.add(10);
 	    llistaTipusBitllets.add(5);
 	    
-	    
 	    //Fase2
 	    carta.put("sopa", 10);
 	    carta.put("pasta", 15);
